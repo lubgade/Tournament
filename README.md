@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project allows user to generate random swiss pairings using a Python module that uses the PostgreSQL database which keeps track of players & matches in a game tournament.
+This project allows users to generate random swiss pairings using a Python module that uses the PostgreSQL database which keeps track of players & matches in a game tournament.
 
 ## Setup
 
