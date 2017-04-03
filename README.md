@@ -15,6 +15,7 @@ This project allows users to generate random swiss pairings using a Python modul
 ## Usage
 
 * Write SQL database and table defintions in the file **tournament.sql**
-* Write Python functions in the file **tournament.py**
+* Write Python functions, which provide access to your database, in the file **tournament.py**
 * Run a test suite to verify your code using **tournament_test.py** using the command `python tournament_test.py` 
-
+* Run SQL queries on the tables of the currently connected database(tournament) using `psql`
+* Alternatively run `psql` followed by `\i tournament.sql` to execute the sql commands from the file **tournament.sql**
