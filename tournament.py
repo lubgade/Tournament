@@ -39,7 +39,6 @@ def countPlayers():
     return count[0][0]
 
 
-
 def registerPlayer(name):
     """Adds a player to the tournament database.
   
@@ -75,7 +74,6 @@ def playerStandings():
     player_standings = c.fetchall()
     db.close()
     return player_standings
-
 
 
 def reportMatch(winner, loser):

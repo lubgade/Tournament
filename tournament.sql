@@ -25,7 +25,6 @@ CREATE TABLE matches (id SERIAL primary key,
 winner integer REFERENCES players (id),
 loser integer REFERENCES players(id));
 
---\c tournament;
 
 
 -- Creates a view of the standings
